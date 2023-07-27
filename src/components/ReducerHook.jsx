@@ -13,6 +13,9 @@ const reducer = (state,action)=>{
     }
     return state;
 }
+
+
+
 const ReducerHook = () => {
    const [state ,dispatch] =useReducer(reducer,initialState)
   return (
